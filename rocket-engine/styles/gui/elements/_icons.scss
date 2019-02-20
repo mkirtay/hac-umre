@@ -1,0 +1,615 @@
+
+%icon-arrow-down {
+    content: "\EA01";
+}
+
+.icon-arrow-down {
+    &::before {
+        @extend %icon-arrow-down;
+    }
+}
+
+
+%icon-arrow-left {
+    content: "\EA02";
+}
+
+.icon-arrow-left {
+    &::before {
+        @extend %icon-arrow-left;
+    }
+}
+
+
+%icon-arrow-right {
+    content: "\EA03";
+}
+
+.icon-arrow-right {
+    &::before {
+        @extend %icon-arrow-right;
+    }
+}
+
+
+%icon-arrow-up {
+    content: "\EA04";
+}
+
+.icon-arrow-up {
+    &::before {
+        @extend %icon-arrow-up;
+    }
+}
+
+
+%icon-close {
+    content: "\EA05";
+}
+
+.icon-close {
+    &::before {
+        @extend %icon-close;
+    }
+}
+
+
+%icon-coin {
+    content: "\EA06";
+}
+
+.icon-coin {
+    &::before {
+        @extend %icon-coin;
+    }
+}
+
+
+%icon-envelope {
+    content: "\EA07";
+}
+
+.icon-envelope {
+    &::before {
+        @extend %icon-envelope;
+    }
+}
+
+
+%icon-home-icon {
+    content: "\EA08";
+}
+
+.icon-home-icon {
+    &::before {
+        @extend %icon-home-icon;
+    }
+}
+
+
+%icon-info {
+    content: "\EA09";
+}
+
+.icon-info {
+    &::before {
+        @extend %icon-info;
+    }
+}
+
+
+%icon-linkedin {
+    content: "\EA0A";
+}
+
+.icon-linkedin {
+    &::before {
+        @extend %icon-linkedin;
+    }
+}
+
+
+%icon-menu {
+    content: "\EA0B";
+}
+
+.icon-menu {
+    &::before {
+        @extend %icon-menu;
+    }
+}
+
+
+%icon-play {
+    content: "\EA0C";
+}
+
+.icon-play {
+    &::before {
+        @extend %icon-play;
+    }
+}
+
+
+%icon-success {
+    content: "\EA0D";
+}
+
+.icon-success {
+    &::before {
+        @extend %icon-success;
+    }
+}
+
+
+%icon-turkcell-icon {
+    content: "\EA0E";
+}
+
+.icon-turkcell-icon {
+    &::before {
+        @extend %icon-turkcell-icon;
+    }
+}
+
+
+%icon-triangle {
+    content: "\EA0F";
+}
+
+.icon-triangle {
+    &::before {
+        @extend %icon-triangle;
+    }
+}
+
+
+%icon-plus {
+    content: "\EA10";
+}
+
+.icon-plus {
+    &::before {
+        @extend %icon-plus;
+    }
+}
+
+
+%icon-phone-call {
+    content: "\EA11";
+}
+
+.icon-phone-call {
+    &::before {
+        @extend %icon-phone-call;
+    }
+}
+
+
+%icon-invalid {
+    content: "\EA12";
+}
+
+.icon-invalid {
+    &::before {
+        @extend %icon-invalid;
+    }
+}
+
+
+%icon-elips {
+    content: "\EA13";
+}
+
+.icon-elips {
+    &::before {
+        @extend %icon-elips;
+    }
+}
+
+
+%icon-arrow {
+    content: "\EA14";
+}
+
+.icon-arrow {
+    &::before {
+        @extend %icon-arrow;
+    }
+}
+
+
+%icon-play2 {
+    content: "\EA15";
+}
+
+.icon-play2 {
+    &::before {
+        @extend %icon-play2;
+    }
+}
+
+
+%icon-refresh-arrow {
+    content: "\EA16";
+}
+
+.icon-refresh-arrow {
+    &::before {
+        @extend %icon-refresh-arrow;
+    }
+}
+
+
+%icon-speaker {
+    content: "\EA17";
+}
+
+.icon-speaker {
+    &::before {
+        @extend %icon-speaker;
+    }
+}
+
+
+%icon-turkcell-logo-new {
+    content: "\EA18";
+}
+
+.icon-turkcell-logo-new {
+    &::before {
+        @extend %icon-turkcell-logo-new;
+    }
+}
+
+
+%icon-line {
+    content: "\EA19";
+}
+
+.icon-line {
+    &::before {
+        @extend %icon-line;
+    }
+}
+
+
+%icon-combined-shape {
+    content: "\EA1A";
+}
+
+.icon-combined-shape {
+    &::before {
+        @extend %icon-combined-shape;
+    }
+}
+
+
+%icon-youtube {
+    content: "\EA1B";
+}
+
+.icon-youtube {
+    &::before {
+        @extend %icon-youtube;
+    }
+}
+
+
+%icon-twitter {
+    content: "\EA1C";
+}
+
+.icon-twitter {
+    &::before {
+        @extend %icon-twitter;
+    }
+}
+
+
+%icon-instagram {
+    content: "\EA1D";
+}
+
+.icon-instagram {
+    &::before {
+        @extend %icon-instagram;
+    }
+}
+
+
+%icon-facebook {
+    content: "\EA1E";
+}
+
+.icon-facebook {
+    &::before {
+        @extend %icon-facebook;
+    }
+}
+
+
+%icon-sound {
+    content: "\EA1F";
+}
+
+.icon-sound {
+    &::before {
+        @extend %icon-sound;
+    }
+}
+
+
+%icon-music {
+    content: "\EA20";
+}
+
+.icon-music {
+    &::before {
+        @extend %icon-music;
+    }
+}
+
+
+%icon-electric {
+    content: "\EA21";
+}
+
+.icon-electric {
+    &::before {
+        @extend %icon-electric;
+    }
+}
+
+
+%icon-messages {
+    content: "\EA22";
+}
+
+.icon-messages {
+    &::before {
+        @extend %icon-messages;
+    }
+}
+
+
+%icon-world {
+    content: "\EA23";
+}
+
+.icon-world {
+    &::before {
+        @extend %icon-world;
+    }
+}
+
+
+%icon-heart {
+    content: "\EA24";
+}
+
+.icon-heart {
+    &::before {
+        @extend %icon-heart;
+    }
+}
+
+
+%icon-fly {
+    content: "\EA25";
+}
+
+.icon-fly {
+    &::before {
+        @extend %icon-fly;
+    }
+}
+
+
+%icon-download {
+    content: "\EA26";
+}
+
+.icon-download {
+    &::before {
+        @extend %icon-download;
+    }
+}
+
+
+%icon-finger {
+    content: "\EA27";
+}
+
+.icon-finger {
+    &::before {
+        @extend %icon-finger;
+    }
+}
+
+
+%icon-recognition {
+    content: "\EA28";
+}
+
+.icon-recognition {
+    &::before {
+        @extend %icon-recognition;
+    }
+}
+
+
+%icon-upload {
+    content: "\EA29";
+}
+
+.icon-upload {
+    &::before {
+        @extend %icon-upload;
+    }
+}
+
+
+%icon-facebook-footer {
+    content: "\EA2A";
+}
+
+.icon-facebook-footer {
+    &::before {
+        @extend %icon-facebook-footer;
+    }
+}
+
+
+%icon-twitter-footer {
+    content: "\EA2B";
+}
+
+.icon-twitter-footer {
+    &::before {
+        @extend %icon-twitter-footer;
+    }
+}
+
+
+%icon-youtube-footer {
+    content: "\EA2C";
+}
+
+.icon-youtube-footer {
+    &::before {
+        @extend %icon-youtube-footer;
+    }
+}
+
+
+%icon-austria {
+    content: "\EA2D";
+}
+
+.icon-austria {
+    &::before {
+        @extend %icon-austria;
+    }
+}
+
+
+%icon-belgium {
+    content: "\EA2E";
+}
+
+.icon-belgium {
+    &::before {
+        @extend %icon-belgium;
+    }
+}
+
+
+%icon-england {
+    content: "\EA2F";
+}
+
+.icon-england {
+    &::before {
+        @extend %icon-england;
+    }
+}
+
+
+%icon-france {
+    content: "\EA30";
+}
+
+.icon-france {
+    &::before {
+        @extend %icon-france;
+    }
+}
+
+
+%icon-holland {
+    content: "\EA31";
+}
+
+.icon-holland {
+    &::before {
+        @extend %icon-holland;
+    }
+}
+
+
+%icon-tespitedilemedi {
+    content: "\EA32";
+}
+
+.icon-tespitedilemedi {
+    &::before {
+        @extend %icon-tespitedilemedi;
+    }
+}
+
+
+%icon-turkey {
+    content: "\EA33";
+}
+
+.icon-turkey {
+    &::before {
+        @extend %icon-turkey;
+    }
+}
+
+
+%icon-usa {
+    content: "\EA34";
+}
+
+.icon-usa {
+    &::before {
+        @extend %icon-usa;
+    }
+}
+
+
+%icon-business {
+    content: "\EA35";
+}
+
+.icon-business {
+    &::before {
+        @extend %icon-business;
+    }
+}
+
+
+%icon-develop {
+    content: "\EA36";
+}
+
+.icon-develop {
+    &::before {
+        @extend %icon-develop;
+    }
+}
+
+
+%icon-form {
+    content: "\EA37";
+}
+
+.icon-form {
+    &::before {
+        @extend %icon-form;
+    }
+}
+
+
+%icon-user {
+    content: "\EA38";
+}
+
+.icon-user {
+    &::before {
+        @extend %icon-user;
+    }
+}

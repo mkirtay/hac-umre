@@ -1,0 +1,23 @@
+{
+  "name": "sifir-proje",
+  "description": "sifir-proje",
+  "main": "app/index.html",
+  "authors": [
+    "Bilal Cinarli"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "http://uxdemos/sifir-proje",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": { 
+    "caffeine": "latest",
+    "melange": "latest"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "sifir-proje",
+  "version": "1.0.0",
+  "description": "sifir-proje",
+  "main": "app/index.html",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://uxrepos:8080/git/UXRocket/sifir-proje.git"
+  },
+  "contributors": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "http://uxrepos:8080/UXRocket/sifir-proje/issues"
+  },
+  "homepage": "http://uxdemos/sifir-proje",
+  "devDependencies": {
+    "connect-modrewrite": "^0.9.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-consolidate": "latest",
+    "gulp-csslint": "latest",
+    "gulp-data": "latest",
+    "gulp-header": "latest",
+    "gulp-iconfont": "latest",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "latest",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "latest",
+    "gulp-nunjucks-render": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-sourcemaps": "latest",
+    "gulp-spritesmash": "^1.1.1",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "latest",
+    "gulp.spritesmith": "^6.9.0",
+    "jshint": "^2.9.1",
+    "load-data": "latest",
+    "load-gulp-tasks": "^0.1.0",
+    "vinyl-buffer": "^1.0.1"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "gulp-remove-css-comments": "^1.0.0",
+    "strip-css-comments": "^3.0.0"
+  }
+}

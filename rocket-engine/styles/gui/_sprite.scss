@@ -1,0 +1,175 @@
+/*! fast-login 
+ *  fast-login 
+ *  @author  
+ *  @version 1.0.0 
+ *  @build Tue Jun 05 2018 15:04:31 GMT+0300 (+03) 
+ */
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+            $en-flag: (0px, 66px, 0px, -66px, 20px, 20px, 225px, 86px, '../images/sprite/uxr-sprite-icons.png', 'en-flag', );
+            $logo: (0px, 0px, 0px, 0px, 225px, 56px, 225px, 86px, '../images/sprite/uxr-sprite-icons.png', 'logo', );
+            $tr-flag: (30px, 66px, -30px, -66px, 20px, 20px, 225px, 86px, '../images/sprite/uxr-sprite-icons.png', 'tr-flag', );
+            $en-flag-2x-name: 'en-flag@2x';
+            $en-flag-2x-x: 0px;
+            $en-flag-2x-y: 132px;
+            $en-flag-2x-offset-x: 0px;
+            $en-flag-2x-offset-y: -132px;
+            $en-flag-2x-width: 40px;
+            $en-flag-2x-height: 40px;
+            $en-flag-2x-total-width: 450px;
+            $en-flag-2x-total-height: 172px;
+            $en-flag-2x-image: 'uxr-sprite-icons@2x.png';
+            $en-flag-2x: (0px, 132px, 0px, -132px, 40px, 40px, 450px, 172px, '../images/sprite/uxr-sprite-icons@2x.png', 'en-flag@2x', );
+            $logo-2x-name: 'logo@2x';
+            $logo-2x-x: 0px;
+            $logo-2x-y: 0px;
+            $logo-2x-offset-x: 0px;
+            $logo-2x-offset-y: 0px;
+            $logo-2x-width: 450px;
+            $logo-2x-height: 112px;
+            $logo-2x-total-width: 450px;
+            $logo-2x-total-height: 172px;
+            $logo-2x-image: 'uxr-sprite-icons@2x.png';
+            $logo-2x: (0px, 0px, 0px, 0px, 450px, 112px, 450px, 172px, '../images/sprite/uxr-sprite-icons@2x.png', 'logo@2x', );
+            $tr-flag-2x-name: 'tr-flag@2x';
+            $tr-flag-2x-x: 60px;
+            $tr-flag-2x-y: 132px;
+            $tr-flag-2x-offset-x: -60px;
+            $tr-flag-2x-offset-y: -132px;
+            $tr-flag-2x-width: 40px;
+            $tr-flag-2x-height: 40px;
+            $tr-flag-2x-total-width: 450px;
+            $tr-flag-2x-total-height: 172px;
+            $tr-flag-2x-image: 'uxr-sprite-icons@2x.png';
+            $tr-flag-2x: (60px, 132px, -60px, -132px, 40px, 40px, 450px, 172px, '../images/sprite/uxr-sprite-icons@2x.png', 'tr-flag@2x', );
+        $spritesheet-sprites: ($en-flag, $logo, $tr-flag, );
+        $spritesheet: (225px, 86px, 'uxr-sprite-icons.png', $spritesheet-sprites, );
+        $retina-spritesheet-width: 450px;
+        $retina-spritesheet-height: 172px;
+        $retina-spritesheet-image: 'uxr-sprite-icons@2x.png';
+        $retina-spritesheet-sprites: ($en-flag-2x, $logo-2x, $tr-flag-2x, );
+        $retina-spritesheet: (450px, 172px, 'uxr-sprite-icons@2x.png', $retina-spritesheet-sprites, );
+
+        // These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+        //
+        // The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+            $en-flag-group-name: 'en-flag';
+            $en-flag-group: ('en-flag', $en-flag, $en-flag-2x, );
+            $logo-group-name: 'logo';
+            $logo-group: ('logo', $logo, $logo-2x, );
+            $tr-flag-group-name: 'tr-flag';
+            $tr-flag-group: ('tr-flag', $tr-flag, $tr-flag-2x, );
+        $retina-groups: ($en-flag-group, $logo-group, $tr-flag-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+            // The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+            //   It should be used with a "retina group" variable.
+            //
+            // The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+            //
+            // $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+            //
+            // .icon-home {
+            //   @include retina-sprite($icon-home-group);
+            // }
+            @mixin sprite-background-size($sprite) {
+            $sprite-total-width: nth($sprite, 7);
+            $sprite-total-height: nth($sprite, 8);
+            background-size: $sprite-total-width $sprite-total-height;
+            }
+
+            @mixin retina-sprite($retina-group) {
+            $normal-sprite: nth($retina-group, 2);
+            $retina-sprite: nth($retina-group, 3);
+            @include sprite($normal-sprite);
+
+            @media (-webkit-min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi) {
+            @include sprite-image($retina-sprite);
+            @include sprite-background-size($normal-sprite);
+            }
+            }
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+            // The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+            //   This yields the same output as CSS retina template but can be overridden in SCSS
+            //
+            // @include retina-sprites($retina-groups);
+            @mixin retina-sprites($retina-groups) {
+            @each $retina-group in $retina-groups {
+            $sprite-name: nth($retina-group, 1);
+            .#{$sprite-name} {
+            @include retina-sprite($retina-group);
+            }
+            }
+            }
