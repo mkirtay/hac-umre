@@ -36,11 +36,6 @@
 
     config.libscripts = [
         'bower_components/jquery/dist/jquery.js',
-        'bower_components/uxrocket.factory/dist/uxrocket.factory.js',
-        'bower_components/uxrocket.modal/dist/uxrocket.modal.js',
-        'bower_components/uxrocket.select/dist/uxrocket.select.js',
-        'bower_components/parsleyjs/dist/parsley.js',
-        'bower_components/uxrocket.accordion/dist/uxrocket.accordion.js'
     ];
 
     config.scripts = [
