@@ -16,7 +16,6 @@
  * Caffeine is a Sass based mixin/function library (see: https://github.com/bcinarli/caffeine)
  * Mostly Melange is not depended on Caffeine.
  */
-@import "../../bower_components/caffeine/lib/caffeine";
 
 
 /**
@@ -33,7 +32,6 @@
  * missing the 100% fragment except in .one-whole definitions. Simply, there are no .two-halves, .three-thirds, .four-quarters classes
  * which are equal to .one-whole :)
  */
-@import "../../bower_components/melange/lib/melange";
 
 
 /**
@@ -49,6 +47,5 @@
  * For auxiliary usages, the final visibility or behaviour states of the elements, add the auxiliary definitions at last.
  * The auxiliary definitions are such as `.is-hidden`, `.has-action`
  */
-@import "../../bower_components/melange/lib/melange/auxiliary/auxiliary";
 
 

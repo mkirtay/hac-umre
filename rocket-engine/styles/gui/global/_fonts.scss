@@ -1,14 +1,58 @@
 
-/** -------------------------------------------
- 
-    ------------------------------------------- **/
+@font-face {
+	font-family: 'hesappli';
+	src: url('../fonts/hesappli.eot');
+	src: url('../fonts/hesappli.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/hesappli.woff') format('woff'),
+	url('../fonts/hesappli.ttf') format('truetype');
+}
 
-@include font-icon("fast-login", "fast-login");
+@font-face {
+	font-family: 'GreycliffCF';
+	src: url('../fonts/GreycliffCF-Bold.eot');
+	src: url('../fonts/GreycliffCF-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GreycliffCF-Bold.woff2') format('woff2'),
+	url('../fonts/GreycliffCF-Bold.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+}
 
+@font-face {
+	font-family: 'GreycliffCF';
+	src: url('../fonts/GreycliffCF-Heavy.eot');
+	src: url('../fonts/GreycliffCF-Heavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GreycliffCF-Heavy.woff2') format('woff2'),
+	url('../fonts/GreycliffCF-Heavy.woff') format('woff');
+	font-weight: 800;
+	font-display: swap;
+}
 
-@include font-face(GreycliffCF, GreycliffCF-DemiBold, 800);
-@include font-face(GreycliffCF, GreycliffCF-Heavy, 700);
-@include font-face(GreycliffCF, GreycliffCF-Bold, 600);
-@include font-face(GreycliffCF, GreycliffCF-Medium, 500);
-@include font-face(GreycliffCF, GreycliffCF-Regular, 400);
+@font-face {
+	font-family: 'GreycliffCF';
+	src: url('../fonts/GreycliffCF-DemiBold.eot');
+	src: url('../fonts/GreycliffCF-DemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GreycliffCF-DemiBold.woff2') format('woff2'),
+	url('../fonts/GreycliffCF-DemiBold.woff') format('woff');
+	font-weight: 600;
+	font-display: swap;
+}
 
+@font-face {
+	font-family: 'GreycliffCF';
+	src: url('../fonts/GreycliffCF-Medium.eot');
+	src: url('../fonts/GreycliffCF-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GreycliffCF-Medium.woff2') format('woff2'),
+	url('../fonts/GreycliffCF-Medium.woff') format('woff');
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'GreycliffCF';
+	src: url('../fonts/GreycliffCF-Regular.eot');
+	src: url('../fonts/GreycliffCF-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GreycliffCF-Regular.woff2') format('woff2'),
+	url('../fonts/GreycliffCF-Regular.woff') format('woff');
+	font-weight: 400;
+	font-display: swap;
+}
