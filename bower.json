@@ -1,10 +1,9 @@
 {
-  "name": "sifir-proje",
-  "description": "sifir-proje",
+  "name": "hac-umre",
+  "description": "hac-umre",
   "main": "app/index.html",
   "license": "ISC",
   "moduleType": [],
-  "homepage": "http://uxdemos/sifir-proje",
   "private": true,
   "ignore": [
     "**/.*",

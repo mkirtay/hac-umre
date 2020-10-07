@@ -1,6 +1,6 @@
 <?php
 $the_folder    = '.';
-$zip_file_name = 'sifir-proje-' . date('Y-m-d-hi') . '.zip';
+$zip_file_name = 'hac-umre-' . date('Y-m-d-hi') . '.zip';
 
 
 $download_file              = true;

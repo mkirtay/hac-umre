@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sıfır Proje </title>
+    <title>Hac Umre </title>
 
-    <link rel="stylesheet" href="/assets/styles/sifir-proje.css" />
+    <link rel="stylesheet" href="/assets/styles/hac-umre.css" />
 
     <style>
         body {
@@ -77,8 +77,7 @@
     <header id="masthead" class="page-top">
         <h1 class="site-title">
             <span class="page-logo">
-                <i class="icon-turkcell"></i>
-                Sıfır Proje
+                Hac Umre
             </span>
         </h1>
     </header>

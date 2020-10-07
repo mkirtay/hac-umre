@@ -7,10 +7,10 @@
     <meta name="description" content="">
 
 
-    <title>{% if title %}{{ title }} .:. {% endif %} Sıfır Proje</title>
+    <title>{% if title %}{{ title }} .:. {% endif %} Hac Umre</title>
 
     <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="../assets/styles/sifir-proje.min.css">
+    <link rel="stylesheet" href="../assets/styles/hac-umre.min.css">
 
 
 </head>
@@ -31,7 +31,7 @@
     </main>
 
 </div>
-    <script src="../assets/scripts/sifir-proje.lib.min.js"></script>
-    <script src="../assets/scripts/sifir-proje.min.js"></script>
+    <script src="../assets/scripts/hac-umre.lib.min.js"></script>
+    <script src="../assets/scripts/hac-umre.min.js"></script>
 </body>
 </html>
